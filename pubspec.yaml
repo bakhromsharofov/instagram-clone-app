@@ -1,0 +1,58 @@
+name: ng_demo_17
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.6
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.14.0
+  firebase_storage: ^11.6.0
+  firebase_messaging: ^14.7.10
+
+  logger: ^2.2.0
+  fluttertoast: ^8.2.4
+  shared_preferences: ^2.2.2
+  image_picker: ^1.0.7
+  cached_network_image: ^3.3.1
+  platform_device_id_v3: ^1.0.0
+  http: ^1.1.0
+  flutter_local_notifications: ^17.0.1
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^3.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+     - assets/images/
+
+
+
+
+  fonts:
+    - family: Billabong
+      fonts:
+        - asset: assets/fonts/Billabong.ttf
